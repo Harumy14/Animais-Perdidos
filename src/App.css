@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image: url('./assets/1633611562_615eef2ac1c9d_hd.jpeg');
+  background-color: rgba(147, 133, 133, 0.903);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Playfair Display', serif;
+}
+  .faixa {
+    padding: 60px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   
+  }
+  .App {
+    text-align: center;
+    margin: 20px;
+    font-weight: 1000;
+  }
+  .formulario {
+    max-width: 400px;
+    margin: auto;
+    background-color: rgba(95, 9, 9, 0.759);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(40, 39, 39, 0.1);
+  }
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  input,
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+  }
+.button {
+    background-color: rgb(48, 202, 210);
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}  
+.button:hover {
+  width: 80px;
+  background-color: #0c0f3c;
+}
+.animais-cadastrados li {
+  background-color: #a3bca1ca;
+  background-position-x: left;
+}
+.info {
+  text-align: center;
+  border: #ddd;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.cadastrar {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+.cadastrar input{
+  width: 100%;
+  margin-right: 10px;
+  padding: 5px;
+  border: 0;
+  border-radius: 5px;
+}
+.botaoCadastrar{
+  width: 70px;
+  background-color: #CCCCCC;
+  color: #000;
+  padding: 3px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+form {
+  display: flex;
+  width: 100%;
+}
+.botaoCadastrar:hover {
+  width: 80px;
+  background-color: rgb(81, 76, 76);
+  color: #ffffff;
+}
+.botaoCadastrar:active {
+  transform: translateX(2px) translateY(2px);
+}
